@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Drawing Pad</title>
+		<meta charset = "UTF-8" />
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body style = "margin:0px; padding:0px;">
+		<header>
+			<div id="rad">Radius <span id="radVal">5</span>
+				<div class = "changeRad" id="inc">+</div>
+				<div class = "changeRad" id="dec">-</div>
+			</div>
+			<button class = "button" id = "button">Save</button>
+			<div id="colorBar">
+				<div class="color active" style="background-color:#234;"></div>
+				<div class="color"style="background-color:#f00;"></div>
+				<div class="color"style="background-color:#0f0;"></div>
+				<div class="color"style="background-color:#00f;"></div>
+			</div>
+		</header>
+		<canvas id = "canvas" style = "display:block;">Sorry Your Browser Dosn't support canvas</canvas>
+		<script type="text/javascript" src="./js/main.js"></script>
+		<script type="text/javascript" src="./js/radius.js"></script>
+		<script type="text/javascript" src="./js/colors.js"></script>
+		<script type="text/javascript" src="./js/save.js"></script>
+	</body>
+</html>

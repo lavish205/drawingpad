@@ -1,0 +1,11 @@
+{
+  "name": "Draw and Save",
+  "description": "Funnnn",
+  "launch_path": "/index.html",
+  
+  "developer": {
+    "name": "Lavish Aggarwal",
+    "url": "http://www.about.me/lavish"
+  },
+  "default_locale": "en"
+}

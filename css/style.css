@@ -1,0 +1,58 @@
+*{
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	user-select :none;
+	-webkit-user-select :none;
+	-moz-user-select :none;
+	-ms-user-select :none;
+}
+header{
+	width : 100%;
+	height: 50px;
+	background-color: #2f2f2f;
+	color: #fff;
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+}
+#rad{
+	float: left;
+}
+.changeRad{
+	display: inline-block;
+	width: 25px;
+	height: 30px;
+	background-color: #4f4f4f;
+	text-align: center;
+	padding-top: 5px;
+    border-radius:5px;
+    cursor : pointer;
+}
+.color{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	display: inline-block;
+	box-shadow: inset 0px 0px 1px 0px rgba(255,255,255,0.5), 0px 2px 2px rgba(0,0,0,0.5);
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.active{
+	border: 2px solid #fff;
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0,0.5);
+}
+.button{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	background-color: #4f4f4f;
+	text-align: center;
+	padding-top: 5px;
+    border-radius:5px;
+    cursor : pointer;
+    float: left;
+    border: none;
+    margin-left: 40px;
+
+}
