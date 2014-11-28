@@ -16,6 +16,7 @@ var putPoint = function (e)
 			context.fill();
 			context.beginPath();
 			context.moveTo(e.clientX,e.clientY);
+			console.log('hi');
 		}
 }
 var engage = function(e)

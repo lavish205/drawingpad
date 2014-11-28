@@ -3,6 +3,7 @@
 	-moz-box-sizing : border-box;
 	user-select :none;
 	-webkit-user-select :none;
+	margin:0px;
 	-moz-user-select :none;
 	-ms-user-select :none;
 }
@@ -46,13 +47,41 @@ header{
 	display: inline-block;
 	width: 70px;
 	height: 30px;
-	background-color: #4f4f4f;
+	background-color: #545454;
+	opacity: 0.5;
 	text-align: center;
-	padding-top: 5px;
+	padding: 5px;
     border-radius:5px;
     cursor : pointer;
     float: left;
     border: none;
-    margin-left: 40px;
+    margin-left: 10px;
+    color: #fff;
+}
+#but{
+	display: inline-block;
+}
+.clear{
+	margin-left: 10px !important;
 
+}
+.button:hover{
+opacity: 1;
+background-color: #818181;
+}
+#colorBar{
+	float: right;
+}
+@media only screen and (max-width: 600px){
+	header{
+		height: auto;
+		display: block;
+	}
+	#rad {
+		clear: both;
+	}
+	.color{
+		display: inline-block;
+	}
+	
 }
